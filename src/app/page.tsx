@@ -11,7 +11,7 @@ import { LazyVideo } from "@/components/lazy-video";
 export default function Home() {
   return (
     <>
-    <main id="home" className="flex min-h-screen flex-col lg:flex-row items-center justify-center lg:justify-between px-[8%] lg:px-[18%] pt-24 lg:pt-0 gap-8 bg-primary-bg overflow-x-hidden">
+    <main id="home" className="flex min-h-[100svh] lg:min-h-screen flex-col lg:flex-row items-center justify-center lg:justify-between px-[8%] lg:px-[18%] pt-16 lg:pt-0 gap-4 lg:gap-8 bg-primary-bg overflow-x-hidden">
       <div className="flex flex-col mb-8 lg:mb-0 gap-6 lg:gap-12 max-w-xl lg:max-w-3xl">
         <h1 className="font-primary text-primary-text text-2xl sm:text-3xl lg:text-5xl font-bold text-center lg:text-left">Mohammed Bobboi is a Software Engineer based in London, England.</h1>
         <p className="font-secondary text-primary-text text-sm sm:text-base lg:text-xl text-center lg:text-left"> He is a Computer Science Graduate from the University of Sheffield with 2+ years of experience in Software Development, AI/ML/GenAI and delivering scalable, business-focused solutions across fintech, startups and R&D environments.</p>
@@ -24,7 +24,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="relative w-44 h-[260px] sm:w-56 sm:h-[320px] lg:w-80 lg:h-[400px] shrink-0 -mt-12 lg:mt-0">
+      <div className="relative w-44 h-[260px] sm:w-56 sm:h-[320px] lg:w-80 lg:h-[400px] shrink-0 -mt-4 lg:mt-0">
         <Image
           src="/myphoto.jpeg"
           alt="My photo"
